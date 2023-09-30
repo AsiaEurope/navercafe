@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>네이버 카페</title>
+
+
+    <link rel="stylesheet" href="naver cafe.css">
+    <link href="img/cafe1.png" rel="shortcut icon" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600;700&display=swap" rel="stylesheet">
+<style>
+
+*{margin: 0px;}
+
+    body{
+        }
+        header{
+        width: 100%; height: 70px; background-color: rgb(255, 255, 255);}
+</style>
+   
+</head>
+<body> 
+    <header>
+
+        <h1> 
+            <a href="https://www.naver.com" class="logo_naver">
+            <div style="position:absolute; left: 310px;top:10px;">
+            <span class="NAVER"><span class="black">NAVER</span></span></div>
+        </a>
+
+        </h1>
+        <h2> 
+            <a href="https://section.cafe.naver.com" class="logo_cafe">
+            <div style="position:absolute; left: 385px;top:22px;">
+            <span class="카페"><span class="black">카페</span></span></div>
+        </a>
+
+        <div id="outer">  <!-- 검색창 -->
+            <input type="text" id="search" name="search"  placeholder="   원하는 카페, 글을 찾아보세요" >
+            <img src="img/ss.png" width="30px" valign="middle"  style="position:absolute; left:818px; top:24px;">          
+          </div>
+        </h2>
+
+    </header>
+</div>
+    
+</body>
+</html>
