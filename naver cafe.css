@@ -1,0 +1,27 @@
+
+.black {color:black;}
+.NAVER{
+    font-size: 17.4px;
+    -webkit-text-stroke: 0.4px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.카페{
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;}
+
+
+
+  
+input#search{ /* 주의! input#search가 무조건 붙어있어야 한다 ! */
+    display: block;
+    margin: 0 auto;
+    margin-left: 522.5px;
+    margin-top: 16px;
+    font-size: 14px;
+    width: 334px;
+    height: 36px;
+    border: 1px solid rgb(230, 230, 230) ;
+    border-radius: 24px;
+    outline:none;
+    background: #ffffff;}
